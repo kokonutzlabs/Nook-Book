@@ -1,6 +1,6 @@
 # Nook-Book
 A basic interactive mock up facebook with an Animal Crossing twist to it that allows visitors to like, comment, or vote on post.
-###### **I am still working on this project so enjoy what I have done!!**
+###### **This project is not finished, so enjoy what I have done so far!!**
 ## Languages Used:
 - HTML
 - CSS
@@ -11,7 +11,7 @@ I'm a beginner and used refrences throughout the project.
 - [PHP TUTORIAL](https://www.phptutorial.net/php-tutorial/php-radio-button/)
 ## How To View The Site
 #### Option One:
-###### If it's still up, you can view the site through my [Neocities page](https://fuzzykokonutz.neocities.org/). But you will not be able to use the interactions, since it doesn't allow backend.
+###### If it's still up, you can view the project through my [Neocities Page](https://fuzzykokonutz.neocities.org/). It is in the project section of the page and is the first link on the list. But you will not be able to use the interactions, since it doesn't allow backend.
 #### Option Two:
 - 1.Download [XAMPP](https://www.apachefriends.org/download.html) (this gives you a local host to run the php file)
 - 2.Download each file I provided.
