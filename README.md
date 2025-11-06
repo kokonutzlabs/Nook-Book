@@ -19,5 +19,6 @@ I'm a beginner and used refrences throughout the project.
 - 4.After setting up your XAMPP, open it and start the Apache and MySQL.
 - 5.Open your browser and enter localhost/(whatever the folder name is) in the search bar.
 - 6.When the local host is open, click on the nook-book.html file. (Viola, enjoy! ⸂⸂⸜(രᴗര๑)⸝⸃⸃ )
-
+##Updates or Plans
+I plan on adding databases to for each interactive function.
 
