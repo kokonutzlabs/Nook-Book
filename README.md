@@ -5,6 +5,7 @@ A basic interactive mock up facebook with an Animal Crossing twist to it that al
 - HTML
 - CSS
 - PHP
+- SQL
 ## Sources I've Used:
 I'm a beginner and used refrences throughout the project.
 - [w3schools](https://www.w3schools.com/)
@@ -21,4 +22,4 @@ I'm a beginner and used refrences throughout the project.
 - 6.When the local host is open, click on the nook-book.html file. (Viola, enjoy! ⸂⸂⸜(രᴗര๑)⸝⸃⸃ )
 
 ## Updates 
-I plan on addign databases to this project for each interactive function 11/6/2025
+I plan on adding SQL databases to this project for each interactive function 11/6/2025
