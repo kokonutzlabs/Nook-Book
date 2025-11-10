@@ -5,7 +5,7 @@ A basic interactive mock up facebook with an Animal Crossing twist to it that al
 - HTML
 - CSS
 - PHP
-- SQL
+- MySQL
 ## Sources I've Used:
 I'm a beginner and used refrences throughout the project.
 - [w3schools](https://www.w3schools.com/)
