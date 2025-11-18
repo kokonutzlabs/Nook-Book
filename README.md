@@ -30,7 +30,7 @@ I'm a beginner and used refrences throughout the project.
 - 6.When the local host is open, click on the nook-book.html file. (Viola, enjoy! ⸂⸂⸜(രᴗര๑)⸝⸃⸃ )
 
 ## Updates 
-1. I plan on adding SQL databases to this project for each interactive function.  11/6/25
+1. I plan on adding an SQL database to this project, so you can do each interaction without being brought to a new screen.  11/6/25
 2. I will finish up the css sometime this month. 11/12/25
 3. I'm thinking of adding more profiles to look at, but it's a maybe right now. 11/10/25
 
