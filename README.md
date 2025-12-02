@@ -1,6 +1,11 @@
-# Nook-Book
-A basic interactive mock up facebook with an Animal Crossing twist to it that allows visitors to like, comment, or vote on post.
-###### **This project is not finished, so enjoy what I have done so far!!**
+# Nook-Book.SQL
+Hello,
+This is a side project I’m doing outside of my Business Programming II class to better understand how PHP and SQL work. As you can see on my repositories, I have experience in HTML/CSS and wanted to make 
+something else involving them, so I’m doing this. I wanted to build someone their own site, and they wanted it to be Animal Crossing themed, so after taking this class I came up with a social site similar 
+to Facebook. I want to build this as I learn, making it more interactive by adding features like creating your own account, going to your home page, and viewing others’ pages.
+
+During this project, I started off writing raw SQL, but when it wasn’t working, I switched to using phpMyAdmin.
+###### **!!This project is not finished, so enjoy what I have done so far!!**
 ## File Explainations:
 #### HTML
 ##### **nook-book.html:** Displays one villagers profile where you can only interact with their posts at this time.
@@ -9,6 +14,10 @@ A basic interactive mock up facebook with an Animal Crossing twist to it that al
 ##### **nook-book2.php:** Connects PHP to a MySQL database. User actions (votes, reactions, and comments) are now saved in the database instead of being temporary. Each submission is confirmed with an on screen message.
 #### SQL
 ##### **nook-book.sql:** Stores user data received from PHP, allowing the site to remember votes, reactions, and comments.
+## Programs Used:
+- VS Code
+- XAMPP
+- phpMyAdmin
 ## Languages Used:
 - HTML
 - CSS
