@@ -1,4 +1,4 @@
-# Nook-Book.SQL
+# Nook_Book.html
 Hello,
 This is a side project I’m doing outside of my Business Programming II class to better understand how PHP and SQL work. As you can see on my repositories, I have experience in HTML/CSS and wanted to make 
 something else involving them, so I’m doing this. I wanted to build someone their own site, and they wanted it to be Animal Crossing themed, so after taking this class I came up with a social site similar 
