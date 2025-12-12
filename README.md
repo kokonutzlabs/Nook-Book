@@ -9,7 +9,8 @@ This is the first version where, at the time, I only knew how to work php with h
 #### HTML
 ##### **nook-book.html:** Displays one villagers profile where you can only interact with their posts at this time.
 #### PHP
-##### **nook-book1.php:** Temporarily holds user interactions and shows a confirmation message when an action (vote, reaction, or comment) is submitted.
+##### **nook-book.php:** Temporarily holds user interactions and shows a confirmation message when an action (vote, reaction, or comment) is submitted.
+##### **nook-book1.php:** Creates the connection to an SQL database to record every time a user submits a form.
 ## Programs Used:
 - VS Code
 - XAMPP
