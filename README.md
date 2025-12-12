@@ -18,6 +18,7 @@ This is the first version where, at the time, I only knew how to work php with h
 - HTML
 - CSS
 - PHP
+- SQL
 ## Sources I've Used:
 - [w3schools](https://www.w3schools.com/)
 - [PHP TUTORIAL](https://www.phptutorial.net/php-tutorial/php-radio-button/)
