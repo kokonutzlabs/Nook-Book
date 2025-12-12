@@ -5,15 +5,15 @@ something else involving them, so I’m doing this. I wanted to build someone th
 to Facebook. I want to build this as I learn, making it more interactive by adding features like creating your own account, going to your home page, and viewing others’ pages. 
 
 ## File Explainations:
-This is the first version where, at the time, I only knew how to work php with html.
 #### HTML
 ##### **nook-book.html:** Displays one villagers profile where you can only interact with their posts at this time.
 #### PHP
 ##### **nook-book.php:** Temporarily holds user interactions and shows a confirmation message when an action (vote, reaction, or comment) is submitted.
-##### **nook-book1.php:** Creates the connection to an SQL database to record every time a user submits a form.
+##### **nook-book1.php:** Creates the connection to a SQL database that records every submit  from a form.
 ## Programs Used:
 - VS Code
 - XAMPP
+- PhpMyAdmin
 ## Languages Used:
 - HTML
 - CSS
