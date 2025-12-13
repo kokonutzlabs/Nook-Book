@@ -9,7 +9,10 @@ to Facebook. I want to build this as I learn, making it more interactive by addi
 ##### **nook-book.html:** Displays one villagers profile where you can only interact with their posts at this time.
 #### PHP
 ##### **nook-book.php:** Temporarily holds user interactions and shows a confirmation message when an action (vote, reaction, or comment) is submitted.
-##### **nook-book1.php:** Creates the connection to a SQL database that records every submit  from a form.
+##### **nook-book-db1.php:** Creates a databasee to hold the record data from HTML form subissions.
+##### **nook-book-conn1.php:** Creates the connection between SQL database and HTML site. 
+##### **nook-book-setup1.php:** Creates the table for recorded form data. 
+##### **nook-book-forms1.php:** Creates the variable insertion from HTML forms, so each input can be recorded.
 ## Programs Used:
 - VS Code
 - XAMPP
