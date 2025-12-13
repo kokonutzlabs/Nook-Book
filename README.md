@@ -38,4 +38,4 @@ to Facebook. I want to build this as I learn, making it more interactive by addi
 
 ## Updates 
 1. puttig .css on the back burner 12/8/2025
-
+2. I will make it where I can hide echo messages to make user interface more enjoyable 12/13/2025
