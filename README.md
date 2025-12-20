@@ -1,18 +1,45 @@
 # Nook_Book.HTML
+
 Hello,
-This is a side project I’m doing outside of my Business Programming II class to better understand how PHP and SQL work. As you can see on my repositories, I have experience in HTML/CSS and wanted to make 
-something else involving them, so I’m doing this. I wanted to build someone their own site, and they wanted it to be Animal Crossing themed, so after taking this class I came up with a social site similar 
-to Facebook. I want to build this as I learn, making it more interactive by adding features like creating your own account, going to your home page, and viewing others’ pages. 
+Nook_Book is a small, controlled web application created to understand how HTML, PHP, and SQL interact in a basic system environment. While the project is themed around Animal Crossing and visually modeled after a social media profile, its long-term purpose is to serve as a learning platform for digital forensics and data integrity concepts.
+
+Version 1 focuses exclusively on system setup and baseline behavior. No authentication, security controls, or forensic logging are implemented at this stage.
+
+## Purpose
+The goal of Version 1 is to:
+- establish the application structure
+- define how user interaction data is stored
+- create a known “normal” state of the system
+- document system components before introducing incidents or analysis
+
+This baseline will be used in later versions to compare changes, investigate anomalies, and analyze system behavior.
+
+## System Scope
+At this stage, the system supports:
+- a static HTML profile page
+- basic user interaction via form submissions
+- backend processing with PHP
+- storage of interaction data in a SQL database
+- local execution in a controlled environment (XAMPP)
+
+The system does not include:
+- user authentication or sessions
+- access controls
+- input validation beyond basic handling
+- logging or audit trails
+- security hardening
+
+These exclusions are intentional and documented.
 
 ## File Explainations:
 #### HTML
-##### **nook-book.html:** Displays one villagers profile where you can only interact with their posts at this time.
+##### **nook-book.html:** Displays a single villager profile. Users can submit interactions such as votes, reactions, or comments through HTML forms.
 #### PHP
-##### **nook-book.php:** Temporarily holds user interactions and shows a confirmation message when an action (vote, reaction, or comment) is submitted.
-##### **nook-book-db1.php:** Creates a databasee to hold the record data from HTML form subissions.
-##### **nook-book-conn1.php:** Creates the connection between SQL database and HTML site. 
-##### **nook-book-setup1.php:** Creates the table for recorded form data. 
-##### **nook-book-forms1.php:** Creates the variable insertion from HTML forms, so each input can be recorded.
+##### **nook-book.php:** Handles form submissions and displays confirmation messages after user interaction
+##### **nook-book-db1.php:** Creates the SQL database used to store interaction records.
+##### **nook-book-conn1.php:** Establishes the database connection between the application and SQL backend.
+##### **nook-book-setup1.php:** Creates the database tables used to store submitted form data.
+##### **nook-book-forms1.php:** Captures user input from HTML forms and inserts the data into the database.
 ## Programs Used:
 - VS Code
 - XAMPP
