@@ -49,6 +49,16 @@ These exclusions are intentional and documented.
 - CSS
 - PHP
 - SQL
+
+## Data Handling
+In Version 1:
+- each form submission results in a new database entry
+- records are stored without user identification or authentication
+- data is not edited or deleted once inserted
+- database entries represent raw interaction records
+
+This version establishes a baseline dataset for future comparison and analysis.
+
 ## Sources I've Used:
 - [w3schools](https://www.w3schools.com/)
 - [PHP TUTORIAL](https://www.phptutorial.net/php-tutorial/php-radio-button/)
@@ -62,6 +72,11 @@ These exclusions are intentional and documented.
 - 4.After setting up your XAMPP, open it and start the Apache and MySQL.
 - 5.Open your browser and enter ex.) localhost/(whatever the folder name is) in the search bar.
 - 6.When the local host is open, click on the nook-book.html file. (Viola, enjoy! ⸂⸂⸜(രᴗര๑)⸝⸃⸃ )
+
+## Planned Future Versions
+- Version 2: interaction logging and system visibility
+- Version 3: simulated incidents and data integrity analysis
+- Version 4: forensic investigation and reporting
 
 ## Updates 
 1. puttig .css on the back burner 12/8/2025
