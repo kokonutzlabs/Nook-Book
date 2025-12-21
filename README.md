@@ -79,5 +79,5 @@ This version establishes a baseline dataset for future comparison and analysis.
 - Version 4: forensic investigation and reporting
 
 ## Updates 
-1. puttig .css on the back burner 12/8/2025
-2. I will make it where I can hide echo messages to make user interface more enjoyable 12/13/2025
+1. I am currently fixing the stylesheet and php by making a nook-book2 12/21/25
+2. I made a new repository for my next step for my project.
