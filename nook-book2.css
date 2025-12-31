@@ -1,0 +1,154 @@
+/*overall site design*/
+html {
+    background-color:#A3D1C6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.button button, .enter {
+    background-color:  #b6ab8d;
+    border-color: #e6e0c6;
+    border-radius: 5px;
+}
+
+h1, h2, h3, p, .enter {
+  color: #f6f9f8;
+  margin: 0; /*set this because sites get automatic margins*/
+}
+
+h2 {
+    text-align: left;
+}
+
+.bottom-header p {
+    color: #6CB7A2;
+}
+
+.back {
+    background-color: #f9f1e5;;
+}
+
+.hidden {
+    color:  #6CB7A2;
+}
+
+.bar {                                               /*header*/
+    background-color: #469777;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    /*margin-bottom: 15px;*/
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.button {
+    float: right;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.top-header {                                  /*post top banner layout*/                        
+    background-color: #6CB7A2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 2px;
+    margin-top: 25px;
+}
+
+.bottom-header {
+    background-color: #6CB7A2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+
+.top-title {
+    margin-top: 3px;
+    padding-left: 4px;
+}
+
+.profile-content {                                /*bio layout*/
+    background-color: #e6e0c6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.profile-content p {
+    color: black;
+}
+
+.pfp {
+    float: left;
+    margin-left: 36px;
+}
+
+.pfp img {
+    border: 4px solid #6CB7A2;
+    border-radius: 10px;
+}
+
+.bio {
+    float: right;
+    line-height: 0.8; /*for br*/
+    margin-top: 30px;
+    margin-right: 31px;
+}
+
+.resident-content {                           /*residents*/
+    background-color: #e6e0c6;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.pfps {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 125px);
+    grid-gap: 5px; 
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.pfps img {
+    border: 4px solid #6CB7A2;
+    border-radius: 10px; 
+}
+
+.post-content {                               /*post*/
+    background-color: #e6e0c6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.photo img {
+    border: 4px solid #6CB7A2;
+    border-radius: 10px; 
+}
+
+footer {                                     /*footer*/
+    background-color: #469777;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+}
+
