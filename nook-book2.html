@@ -34,10 +34,9 @@
         </div>
       </div>
       
-      <div class="back">
       <div class="profile-content">
         <div class="pfp">
-          <img src="pics/pfp.png" alt="pfp" width="150" height="150">
+          <img src="pics/pfp.png" alt="Weezer" width="150" height="150">
         </div>
         <div class="bio">
         <p><b>Username:</b> Weezer</p><br>
@@ -45,7 +44,6 @@
         <p><b>Friends:</b></p><br>
         <p><b>Url:</b> https://Nook-Book.com/Weezer</p>
         </div>
-       </div>
        </div>
 
     <div class="bottom-header">
@@ -64,12 +62,12 @@
       
       <div class="resident-content">
         <div class="pfps">
-        <img src="" alt="pfp" width="80" height="80">
-        <img src="" alt="pfp" width="80" height="80">
-        <img src="" alt="pfp" width="80" height="80">
-        <img src="" alt="pfp" width="80" height="80">
-        <img src="" alt="pfp" width="80" height="80">
-        <img src="" alt="pfp" width="80" height="80">
+        <img src="pics/Ankha.png" alt="Ankha" width="80" height="80">
+        <img src="pics/Tangy.jpg" alt="Tangy" width="80" height="80">
+        <img src="pics/Flurry.jpg" alt="Flurry" width="80" height="80">
+        <img src="pics/Jacob.jpg" alt="Jacob" width="80" height="80">
+        <img src="pics/punchy.jpg" alt="Punchy" width="80" height="80">
+        <img src="pics/Bob.jpg" alt="Bob" width="80" height="80">
         </div>
       </div>
     
@@ -83,49 +81,68 @@
     <section class="bubble">
     <div class="top-header">
       <div class="top-title">
-      <h2 class="hidden">Post</h2>
+      <h2 class="hidden">https://github.com/kokonutzlabs</h2>
       </div>
     </div>
 
     <div class="post-content">
       <div class="photo">
-        <img src="" alt="pfp" width="300" height="300">
+        <figure>
+          <img src="pics/post1.JPG" alt="photo" width="625" height="375">
+          <figcaption>
+            Hanging with Jacob! Who has the better fit (◐ω◑ )???
+          </figcaption>
+        </figure>
       </div>
 
-            <form action="nook-book-forms1.php" method="POST">
+      <div class="back">
+      <div class="group">
+      <div class="groupa">
+      <form action="nook-book-forms1.php" method="POST">
         <input type="hidden" name="form_type_2" value="reaction"><!-- same as ln 81-->
-          <button type="submit" name="submit_2" value="like" class="enter">
+          <button type="submit" name="submit_2" value="like" class="enter1">
             <img src="" alt="like" height="" width="">
           </button>
-          <button type="submit" name="submit_2" value="fire" class="enter">
+          <button type="submit" name="submit_2" value="fire" class="enter1">
             <img src="" alt="fire" height="" width="">
           </button>
-          <button type="submit" name="submit_2" value="wow" class="enter">
+          <button type="submit" name="submit_2" value="wow" class="enter1">
             <img src="" alt="wow" height="" width="">
           </button>
       </form>
+      </div>
       
+      <div class="groupb">
       <form action="nook-book-forms1.php" method="POST"> <!-- sends form info to php -->
+        
+      <div class="left">
       <input type="hidden" name="form_type_1" value="vote"><!-- sets up how values are collected -->
-        <input type="radio" class="choice" name="best_fit_1" value="Punchy"><label>Punchy</label><!-- share the same names since it's grouped together-->
-        <input type="radio" class="choice" name="best_fit_1" value="Jacob"><label>Jacob</label>
-        <input type="radio" class="choice" name="best_fit_1" value="Flurry"><label>Flurry</label>
-        <input type="radio" class="choice" name="best_fit_1" value="Ankha"><label>Ankha</label>
-        <input type="radio" class="choice" name="best_fit_1" value="Tangy"><label>Tangy</label>
-        <input type="submit" name="submit_1" value="submit" class="enter">  <!--submit button-->
-      </form>
+        <label><input type="radio" class="choice" name="best_fit_1" value="Me">Punchy</label><!-- share the same names since it's grouped together-->
+        <label><input type="radio" class="choice" name="best_fit_1" value="Jacob"><label>Jacob</label>
+      </div>
 
+      <div class="right">
+        <input type="submit" name="submit_1" value="submit" class="enter2">  <!--submit button-->
+      </form>
+      </div>
+      </div>
+
+      <div class="groupc">
       <form action="nook-book-forms1.php" method="POST">
         <input type="hidden" name="form_type_3" value="words">
-          <textarea name="comment_1" placeholder="Write a comment..."></textarea>
-          <button type="submit" name="submit_3" class="enter">Post Comment</button>
+          <textarea name="comment_1" placeholder="Lets hear what you gotta say, Bozo...."></textarea>
+          <button type="submit" name="submit_3" class="enter3">Post Comment</button>
       </form>
+      </div>
+    </div>
+    </div>
     </div>
 
       <div class="bottom-header">
         <p>Open Sesame</p>
       </div>
     </section>
+
   
     <footer>
       <p>© 2001 Tom Nook. All rights reserved.</p>
