@@ -79,5 +79,5 @@ This version establishes a baseline dataset for future comparison and analysis.
 - Version 4: forensic investigation and reporting
 
 ## Updates 
-1. I am currently fixing the stylesheet and php by making a nook-book2 12/21/25
+1. I will add more to the html later on 12/31/25
 2. I made a new repository for my next step for my project.
