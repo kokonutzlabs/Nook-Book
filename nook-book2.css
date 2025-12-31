@@ -9,13 +9,19 @@ html {
     margin: auto;
 }
 
-.button button, .enter {
+.button button {
     background-color:  #b6ab8d;
     border-color: #e6e0c6;
     border-radius: 5px;
 }
 
-h1, h2, h3, p, .enter {
+.enter1, .enter2, .enter3 {
+    background-color:  #6CB7A2;
+    border-color: #469777;
+    border-radius: 5px;
+}
+
+h1, h2, h3, p, button, .enter1, .enter2, .enter3 {
   color: #f6f9f8;
   margin: 0; /*set this because sites get automatic margins*/
 }
@@ -26,10 +32,6 @@ h2 {
 
 .bottom-header p {
     color: #6CB7A2;
-}
-
-.back {
-    background-color: #f9f1e5;;
 }
 
 .hidden {
@@ -130,16 +132,122 @@ h2 {
     padding-bottom: 20px;
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
+.photo {                                         /*image*/
     margin-bottom: 15px;
+    margin-left: 30px;
 }
 
 .photo img {
     border: 4px solid #6CB7A2;
     border-radius: 10px; 
 }
+
+figure {                                          /*caption and photo*/
+    margin: 0;
+    width: fit-content;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
+
+.back {                                         /*form*/
+    background-color: #f9f1e5;
+    border-radius: 10px;
+    width: 630px;
+    margin-left: 36px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.groupc textarea {
+  width: 100%;
+  min-height: 80px;
+  border: 4px solid #6CB7A2;
+  border-radius: 10px;
+}
+
+
+.group {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 1.25rem;
+  margin: 10px;
+}
+
+.groupa form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.groupa button {
+  padding: 0.5rem 0.75rem;
+}
+
+.groupb form,
+.groupc form {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  column-gap: 1.25rem;
+  align-items: center;
+  
+}
+
+.groupb .left,
+.groupc .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.groupb form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.groupb label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.groupb input[type="radio"] {
+  margin: 0;
+}
+
+.groupb .right,
+.groupc .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.groupb .left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.groupb .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.groupb input[type="submit"],
+.groupc button {
+  justify-self: end;
+}
+
 
 footer {                                     /*footer*/
     background-color: #469777;
@@ -151,4 +259,3 @@ footer {                                     /*footer*/
     padding-bottom: 4px;
     margin-bottom: 0;
 }
-
