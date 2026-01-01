@@ -81,3 +81,4 @@ This version establishes a baseline dataset for future comparison and analysis.
 ## Updates 
 1. I will add more to the html later on 12/31/25
 2. I made a new repository for my next step for my project.
+3.  I will fix the php data transfer without interrupting user experience. 1/1/26
