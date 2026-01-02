@@ -1,4 +1,4 @@
-# Nook_Book.HTML
+# Nook_Book.HTML system_setup_and_baseline_environment
 
 Hello,
 Nook_Book is a small, controlled web application created to understand how HTML, PHP, and SQL interact in a basic system environment. While the project is themed around Animal Crossing and visually modeled after a social media profile, its long-term purpose is to serve as a learning platform for digital forensics and data integrity concepts.
