@@ -51,13 +51,13 @@ These exclusions are intentional and documented.
 - SQL
 
 ## Data Handling
-In Version 1:
+In Part 1:
 - each form submission results in a new database entry
 - records are stored without user identification or authentication
 - data is not edited or deleted once inserted
 - database entries represent raw interaction records
 
-This version establishes a baseline dataset for future comparison and analysis.
+This part establishes a baseline dataset for future comparison and analysis.
 
 ## Sources I've Used:
 - [w3schools](https://www.w3schools.com/)
